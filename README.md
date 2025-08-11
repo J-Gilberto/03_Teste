@@ -1,0 +1,36 @@
+1. Criar ambiente virtual
+...
+python - m venv .venv
+...
+
+2. Ativar ambiente virtual
+
+1.1 Windows (PowerShell):
+...
+.\.venv\Scripts\activate
+'''
+
+1.2 Linux/Mac:
+'''
+source .venv/bin/activate
+'''
+3. Instalar dependências
+...
+pip install fastapi uvicorn
+...
+
+4. Ececutar servidor 
+...
+uvicorn main:app --reload
+...
+4.1 
+...
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+...
+
+5. Testando o navegador
+...
+http://127.0.0.1:8000/docs
+...
+
+
