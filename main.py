@@ -33,6 +33,6 @@ def check_distance(
     is_within_2km = distance <= 2
 
     return {
-        "distance_km": round(distance, 3),
-        "within_2km": is_within_2km
+        "Distancia em Km": round(distance, 3),
+        "Dentro de 2km": is_within_2km
     }
